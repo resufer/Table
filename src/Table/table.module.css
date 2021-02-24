@@ -1,0 +1,77 @@
+.pagination {
+  margin: 0 auto;
+  width: 125px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.pagination li {
+  list-style-type: none;
+}
+
+.table {
+  width: 72.5vw;
+  margin: 1vh auto;
+  font-size: calc(1vw + 10px);
+}
+
+.tr {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 4vh;
+  margin-top: 10px;
+}
+
+.ind {
+  position: relative;
+  width: 2.5vw;
+  text-align: center;
+}
+
+  .ind button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: 2px solid black;
+    border-right: none;
+  }
+
+.el {
+  width: 70vw;
+  border: 2px solid black;
+}
+
+
+.form {
+  position: relative;
+  width: 73vw;
+  margin: 50px auto;
+}
+
+.form textarea {
+  width: 71.5vw;
+  resize: none;
+}
+
+.form span[role='button'] {
+  position: absolute;
+  top: -33%;
+}
+
+.form button {
+  position: absolute;
+  top: 90%;
+  left: calc(100% - calc(4.5vw + 14px));
+  width: calc(3vw + 15px);
+  height: calc(1.25vw + 7.5px);
+  color: whitesmoke;
+  background-color: #1890FF;
+  font-size: calc(0.75vw + 3px);
+}
+
+.delete {
+  margin-left: calc(-3vw - 15px);
+}
